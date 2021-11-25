@@ -1,0 +1,101 @@
+<<<<<<< HEAD
+\documentclass[12pt]{article}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{mathtools}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{multicol}
+
+\title{TAREA 3 -
+LABORATORIO I}
+\author{}
+\date{November 2021}
+\begin{document}
+
+\maketitle
+\newpage
+\textbf{INSTRUCCIONES DE ENTREGA}
+\bigskip
+
+Esta tercera tarea será grupal: Canvas le agregará en forma aleatoria a un grupo de 3 estudiantes, que deben colaborar para la la resolución de la tarea. También será elegido en forma aleatoria una persona que actuará como "coordinador(a)" de cada grupo.
+
+\bigskip
+
+Cada grupo debe entregar tres items:
+\begin{itemize}
+    \item  Un archivo.ipynb con los códigos usados para resolver los problemas y los cálculos y explicaciones pertinentes.
+    \item Un link a un video (tiempo máximo 5 minutos!), en el que todo el grupo describa, en sus propias palabras y lo más detalladamente posible, cómo resolveron cada problema (es decir, explicar qué cosas se supuso, cómo se realizó el cálculo, las aproximaciones realizadas, sus resultados, etc. etc.). Recomiendo usar la plataforma de Office 365 con su cuenta de la UdeC y entrar al servicio Stream. En cualquier caso, almacene su video en la plataforma Stream. No olvide otorgar permiso de lectura a docentes y ayudante.
+    \item Recomendamos fotografiar/escanear su tarea con algún software que corrija perspectiva y realce colores/contraste (por ejemplo, la aplicación Microsoft Office Lens, que además ofrece sincronización con sus cuentas en OneDrive)
+\end{itemize}
+
+\section{INSTRUCCIONES DE TRABAJO}
+Analice la variabilidad (error aleatorio) de las medidas suministradas por su celular y la aplicación Phyphox. Para esto, usará medidas con el acelerómetro de su celular. Puede consultar los videos tutoriales preparados por J. Ilic en el módulo “Tutoriales de Phyphox” disponible en Canvas.
+
+\begin{enumerate}
+    \item Configure su experimento (celular + phyphox + entorno) para registrar valores de la componente vertical de la aceleración (az) del celular cuando deja el celular en reposo sobre una mesa, por ejemplo. Asegúrese de que su archivo contenga al menos 20000 datos medidos (t\'ipicamente, esto requiere registra datos por al menos un par de minutos). Si tiene dudas o problemas con la aplicación o la adquisición de datos puede contactar al ayudante (oberrios@udec.cl).
+    \item Grafique sus datos en un gráfico donde en el eje horizontal se muestre el número de la medición y en el vertical el valor del dato az registrado. (“Limpie” sus datos. Es decir, elimine los datos que puedan ser atribuidos a movimientos impartidos por usted sobre el celular al tocarlo, al comienzo y al final del registro, y quédese sólo con aquellos donde el celular estuvo en reposo). Trabajará con estos datos en los términos siguientes.
+    \item Calcule el valor medio y la desviación estándar de sus datos.
+    \item Confeccione un histograma de sus datos, separándolos en 20 bins .Comente las caracter\'isticas que observa en el histograma. ¿Qué función cree que podr\'ia describir la tendencia general del histograma?
+    \item Realice un ajuste de los datos del histograma (número de datos en el intervalo correspondiente a c/u de los 20 bins) con la función comentada en el punto anterior.
+    \item Realice un análisis de los residuos de su ajuste.
+    \item Repita todo el proceso anterior con nuevos datos obtenidos de forma similar, pero ahora sosteniendo el celular con su mano mientras realiza la medición. (No mueva su mano mientras toma los datos!).
+    \item Repita nuevamente todo el proceso anterior, pero ahora con el celular en reposo sobre otro celular (o sobre un parlante) que esté emitiendo un tono de frecuencia de 600 Hz (puede generar este tono con la misma aplicación Phyphox).
+    \item Compare, discuta e intente explicar las caracteristicas observadas en sus datos.
+\end{enumerate}
+
+
+\end{document}
+=======
+\documentclass[12pt]{article}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{mathtools}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{multicol}
+
+\title{TAREA 3 -
+LABORATORIO I}
+\author{}
+\date{November 2021}
+\begin{document}
+
+\maketitle
+\newpage
+\textbf{INSTRUCCIONES DE ENTREGA}
+\bigskip
+
+Esta tercera tarea será grupal: Canvas le agregará en forma aleatoria a un grupo de 3 estudiantes, que deben colaborar para la la resolución de la tarea. También será elegido en forma aleatoria una persona que actuará como "coordinador(a)" de cada grupo.
+
+\bigskip
+
+Cada grupo debe entregar tres items:
+\begin{itemize}
+    \item  Un archivo.ipynb con los códigos usados para resolver los problemas y los cálculos y explicaciones pertinentes.
+    \item Un link a un video (tiempo máximo 5 minutos!), en el que todo el grupo describa, en sus propias palabras y lo más detalladamente posible, cómo resolveron cada problema (es decir, explicar qué cosas se supuso, cómo se realizó el cálculo, las aproximaciones realizadas, sus resultados, etc. etc.). Recomiendo usar la plataforma de Office 365 con su cuenta de la UdeC y entrar al servicio Stream. En cualquier caso, almacene su video en la plataforma Stream. No olvide otorgar permiso de lectura a docentes y ayudante.
+    \item Recomendamos fotografiar/escanear su tarea con algún software que corrija perspectiva y realce colores/contraste (por ejemplo, la aplicación Microsoft Office Lens, que además ofrece sincronización con sus cuentas en OneDrive)
+\end{itemize}
+
+\section{INSTRUCCIONES DE TRABAJO}
+Analice la variabilidad (error aleatorio) de las medidas suministradas por su celular y la aplicación Phyphox. Para esto, usará medidas con el acelerómetro de su celular. Puede consultar los videos tutoriales preparados por J. Ilic en el módulo “Tutoriales de Phyphox” disponible en Canvas.
+
+\begin{enumerate}
+    \item Configure su experimento (celular + phyphox + entorno) para registrar valores de la componente vertical de la aceleración (az) del celular cuando deja el celular en reposo sobre una mesa, por ejemplo. Asegúrese de que su archivo contenga al menos 20000 datos medidos (t\'ipicamente, esto requiere registra datos por al menos un par de minutos). Si tiene dudas o problemas con la aplicación o la adquisición de datos puede contactar al ayudante (oberrios@udec.cl).
+    \item Grafique sus datos en un gráfico donde en el eje horizontal se muestre el número de la medición y en el vertical el valor del dato az registrado. (“Limpie” sus datos. Es decir, elimine los datos que puedan ser atribuidos a movimientos impartidos por usted sobre el celular al tocarlo, al comienzo y al final del registro, y quédese sólo con aquellos donde el celular estuvo en reposo). Trabajará con estos datos en los términos siguientes.
+    \item Calcule el valor medio y la desviación estándar de sus datos.
+    \item Confeccione un histograma de sus datos, separándolos en 20 bins .Comente las caracter\'isticas que observa en el histograma. ¿Qué función cree que podr\'ia describir la tendencia general del histograma?
+    \item Realice un ajuste de los datos del histograma (número de datos en el intervalo correspondiente a c/u de los 20 bins) con la función comentada en el punto anterior.
+    \item Realice un análisis de los residuos de su ajuste.
+    \item Repita todo el proceso anterior con nuevos datos obtenidos de forma similar, pero ahora sosteniendo el celular con su mano mientras realiza la medición. (No mueva su mano mientras toma los datos!).
+    \item Repita nuevamente todo el proceso anterior, pero ahora con el celular en reposo sobre otro celular (o sobre un parlante) que esté emitiendo un tono de frecuencia de 600 Hz (puede generar este tono con la misma aplicación Phyphox).
+    \item Compare, discuta e intente explicar las caracteristicas observadas en sus datos.
+\end{enumerate}
+
+
+\end{document}
+>>>>>>> c9463c97f3375d6b32ef57cc3f65581da5689e4d
